@@ -13,7 +13,6 @@ switch(a) {
         break;
     default:
         console.log('other')
-        break;
 }
 
 //5.2
