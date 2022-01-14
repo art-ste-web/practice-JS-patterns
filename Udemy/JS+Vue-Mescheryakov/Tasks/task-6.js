@@ -51,9 +51,8 @@ console.log(revString);
 // 3.Факториал числа - произведение всех натуральных чисел от 1 до n
 // включительно: 3! = 3*2*1, 5! = 5*4*3*2*1. С помощью циклов вычислить факториал числа 10. Использовать for.
 let fact = 1;
-for(let i = 1; i <= 3; i++) {
-    
-    fact = i*(i)*fact
+for(let i = 1; i <= 10; i++) {
+    fact = i*(fact)
     console.log(fact);
 }
 console.log('sum: '+fact);
